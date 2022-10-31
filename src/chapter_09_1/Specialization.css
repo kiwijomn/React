@@ -1,0 +1,59 @@
+.Dialog {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    width: 25rem;
+    height: 25rem;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    margin: 1rem;
+    padding: 0.8rem;
+    background-color: #4A5BA5;
+    border: none;
+    border-radius: 7px;
+    color: #fafafa;
+}
+button:hover {
+    background-color: #9B72CE;
+}
+
+h1 {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+h3 {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+ul {
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.8rem;
+    background-color: #fff;
+    margin: 1rem;
+    box-shadow: 0 5px 8px rgba(0,0,0,.16);
+    border-radius: 7px;
+}
+
+p {
+    margin: 2rem 0 1rem 0;
+}
+
+img {
+    margin: 2rem;
+    width: 15rem;
+    height: 10rem;
+}
+
+input {
+    padding: 1rem;
+    margin: 1rem;
+    width: 65%;
+}
