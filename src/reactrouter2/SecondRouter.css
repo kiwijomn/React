@@ -1,0 +1,33 @@
+nav {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.item {
+    padding: 0.5rem;
+    margin:3px;
+}
+
+.content {
+    margin-top: 10px;
+    padding: 50px;
+    background-color: yellow;
+}
+
+.error {
+    margin-top: 10px;
+    padding: 50px;
+    background-color: red;
+}
+    
+button {
+    margin-top: 20px;
+    padding: 5px;
+}
+    
+footer {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: tomato;
+    text-align: center;
+}

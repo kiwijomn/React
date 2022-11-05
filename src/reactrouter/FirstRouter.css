@@ -1,0 +1,27 @@
+nav {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.item {
+    padding: 0.5rem;
+    margin:3px;
+}
+
+.content {
+    margin-top: 10px;
+    padding: 100px;
+    background-color: yellow;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: tomato;
+    text-align: center;
+}
