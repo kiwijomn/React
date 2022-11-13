@@ -1,0 +1,41 @@
+.flexContainer1 {
+    background-color: gray;
+    display: flex;
+}
+
+.flexContainer2 {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.flexContainer3 {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexContainer4 {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.flexContainer5 {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexContainer6 {
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-end;
+}

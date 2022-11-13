@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import PageColor2 from './chapter_10_1/PageColor2';
 import './index.css';
-import SecondRouter from './reactrouter2/SecondRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <SecondRouter/>
+  <PageColor2/>
 );
