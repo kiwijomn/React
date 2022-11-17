@@ -1,9 +1,13 @@
 import React from "react";
+
 import './FirstRouter.css';
 
-function Home() {
+function Home(props) {
     return (
-        <div className="content">Home 페이지입니다.</div>
+        <div>
+            <div className="content">Home 페이지입니다.</div>
+            <button onClick={props.resetData}> 초기화 </button>
+        </div>
     )
 }
 

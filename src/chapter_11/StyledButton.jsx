@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import './DisplayFlex.css';
 
-const StyleButton = styled.button`
+const StyleButton = styled.div`
     color: white;
     background-color: orange;
     font-size: 15px;

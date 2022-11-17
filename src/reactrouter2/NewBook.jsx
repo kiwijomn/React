@@ -1,10 +1,14 @@
-import React from "react";
-import './SecondRouter.css';
+// import React, {useContext} from "react";
+// import './SecondRouter.css';
 
-function NewBook() {
-    return (
-        <div className="content">NewBook 페이지입니다.</div>
-    )
-}
+// function NewBook() {
+//     const {isDark, setIsDark} = useContext(ColorContext);
+//     const toggleColor = () => {setIsDark(!isDark);}
+//     return (
+//         <button style={{backgroundColor: isDark ? 'black' : 'lightgray', color: isDark ? 'white' : 'black'}} onClick={toggleColor}>
+//             색상 반전
+//         </button>
+//     )
+// }
 
-export default NewBook;
+// export default NewBook;

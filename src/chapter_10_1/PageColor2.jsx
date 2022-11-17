@@ -6,7 +6,7 @@ import './PageColor.css';
 // 컨텍스트 객체 생성 기본값은 null
 const ColorContext = React.createContext(null);
 
-function PageColor() {
+function PageColor2() {
     // 현재 색상 상태 판별을 위한 state 변수와 함수 설정, false로 초기화
     const [isDark, setIsDark] = useState(false);
     const toggleColor = () => {setIsDark(!isDark);}
@@ -77,4 +77,4 @@ function Footer() {
     )
 }
 
-export default PageColor;
+export default PageColor2;
